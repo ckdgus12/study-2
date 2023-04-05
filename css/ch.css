@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+}
 #wrapper{
     display: flex;
     flex-direction: column;
@@ -6,7 +15,9 @@
 #search{
     display: flex;
 }
-
+.d-flex li{
+    padding: 30px;
+}
 .user-text p{
     display: flex;
 }
@@ -29,14 +40,30 @@ nav{
     justify-content: space-between;
     padding-top: 32px;
 }
-ul{
+.popular-list{
     display: flex;
-
 }
-ul li{
+.popular-list li{
     margin-left: 30px;
-    
 }
+.activit-list{
+    display: flex;
+    position: relative;
+    margin-right: 60px;
+}
+.activit-list li{
+    margin-left: 30px;
+}
+.hotels-img{
+    display: flex;
+}
+.hotels-img li{
+    margin-left: 30px;
+}
+.d-flex{
+    display: flex;
+}
+
 .user{
     display: flex;
 
@@ -86,7 +113,9 @@ ul li{
 }
 #activities{
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 #hotels{
     margin-left: 100px;
@@ -115,4 +144,37 @@ ul li{
 #activities{
     display: flex;
     justify-content: center;
+}
+.title3{
+    position: relative;
+    margin-bottom: 560px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: -100px;
+}
+#about{
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    background-color: aliceblue;
+
+}
+.footer-row{
+    display: flex;
+    gap: 200px;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col{
+    display: flex;
 }

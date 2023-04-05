@@ -34,9 +34,7 @@
   border-radius: 999px;
   position: relative;
 }
-.user-img{
-  display: flex;
-}
+
 .avatar img{
   box-sizing: border-box;
   position: absolute;
@@ -102,7 +100,7 @@ margin-left: 230px;
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
-  margin-left: -100px;
+  margin-left: -140px;
 }
 p >strong{
   font-weight: 500;
@@ -128,4 +126,53 @@ p >strong{
 }
 .popular-main{
   margin-left: 100px;
+}
+.about-title1{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.about-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.about-button{
+  border-radius: 12px;
+  background: #f6f4ff;
+}
+.about-img img{
+  border-radius: 12px;
+}
+.footer-About div{
+  font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161414;
+    margin-bottom: 20px;
+}
+.footer-Company div{
+  font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161414;
+    margin-bottom: 20px;
+}
+.footer-Support div{
+  font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161414;
+    margin-bottom: 20px;
+}
+.button-input{
+  border: white;
+  border-radius:12px;
+}
+.foot-content{
+  border:8px solid bisque;
+  border-radius: 12px;
+
 }
