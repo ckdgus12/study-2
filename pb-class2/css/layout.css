@@ -1,0 +1,338 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #3e3e3e;
+  position: relative;
+}
+.wrap{
+  margin: auto;
+  min-width: 1400px;
+  max-width: 1920px;
+  box-sizing: border-box;
+}
+body::before{
+  content: "";
+  position: absolute;
+  background-color: #CEDEA2;
+  display: block;
+  width: 990px;
+  height: 990px;
+  right: -60px;
+  top: -430px;
+  z-index: -1;
+  border-radius: 500px;
+}
+button {
+  border: none;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  background: transparent;
+}
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #121212;
+}
+h2 {
+  font-weight: 700;
+  line-height: 4rem;
+  font-size:3.5rem;
+  color: #121212;
+}
+
+header{
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
+  width: 1200px;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 30px;
+}
+
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  position: relative;
+  right: 80px; 
+}
+
+
+.button-1{
+  background-image: url(//header/Frame\ 267.png);
+}
+.baner-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 45px;
+  width: 30%;
+}
+.baner-text{
+  position: absolute;
+  width: 620px;
+  height: 450px;
+  left: 163px;
+  top: 385px;
+}
+.baner-text h2{
+  font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 121.5%;
+color: #121212;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.main-imgg{
+  position: absolute;
+  width: 800px;
+  height: 689.4px;
+  left: 803px;
+  top: 270px;
+  margin-top: -120px;
+}
+.text-button{
+  display: flex;
+  gap: 40px;
+}
+.text-button2{
+  display: flex;
+  align-items: center;
+  border-radius: 3px solid black;
+}
+.aboutPage{
+  display: flex;
+  position: absolute;
+  width: 1530.36px;
+  height: 634.5px;
+  left: 163px;
+  top: 1230px;
+}
+.aboutPage h5{
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%
+}
+h5{
+  color: #315316;
+}
+strong{
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 115.5%;
+  color: #121212;
+}
+
+.about-left{
+  width: 50%;
+}
+.about-left > div{
+  width: 260px;
+  display: inline-block;
+  border: 1px solid rgb(233,232,232);
+  padding: 2.5rem;
+}
+.about , .about_3{
+  float: left;
+}
+.about_2{
+  margin-bottom: 1rem;
+}
+.about_2 .about_4{
+  margin-left: 1rem;
+  
+}
+.about_2{
+  margin-left: 30px;
+}
+.about_4{
+  margin-left: 30px;
+}
+
+.about-right{
+  display: flex;
+  width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 70px;
+  padding: 1rem 0;
+  margin-top: -30px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.about-right .beauty{
+    font-family: 'Homemade Apple';
+    font-size: 32px;
+    color: #315316;
+    margin-bottom: 0;
+}
+.about-right .foun{
+  font-size: 14px;
+  margin: 0;
+}
+.about-right .ruco{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.video{
+  position: absolute;
+  width: 1595px;
+  height: 882.19px;
+  left: 163px;
+  top: 2014.5px;
+}
+.play{
+  background: linear-gradient(to right, #315316, #72A748);
+    display: block;
+    width: 100px;
+}
+.beautyy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+
+  position: absolute;
+  width: 1595px;
+  height: 1266.96px;
+  left: 163px;
+  top: 3178.5px;
+
+}
+.beauty_box1{
+  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.beautyy .beauty_box1>div{
+  display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 2rem;
+    margin: 1rem;
+    margin-bottom: 4rem;
+    height: 28rem;
+    justify-content: flex-end;
+    border: 1px solid #EEEEEE;
+}
+.beautyy .list_footer{
+  display: flex;
+}
+.beautyy .list_footer > div{
+  display: flex;
+}
+.list_img{
+  align-items: center;
+}
+.dis{
+  position: absolute;
+  width: 1920px;
+  height: 611px;
+  left: 0px;
+  top: 4595.46px;
+
+  background: linear-gradient(167.33deg, #FFFFFF 20.36%, #F1F1F1 88.41%);
+  background-image: url(../beatuy/image\ 153\ \(1\).png) url(../beatuy/image\ 154.png);
+}
+.beautyy h3{
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+}
+.the{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+
+  position: absolute;
+  width: 1594px;
+  height: 1016.23px;
+  left: 163px;
+  top: 5356.46px;
+}
+
+
+.the_img{
+  display: flex;
+}
+.the .the_vv .check{
+  background-image: url(../beatuy/akar-icons_circle-check-fill.png);
+}
+.the_vv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+.the >h2{
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  /* or 60px */
+
+  text-align: center;
+}
+.the_footer{
+  display: flex;
+  gap: 10px;
+}
+.the_text h6{
+  ont-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+
+}
+.the_textt{
+  width: 800px;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+@media(max-width: 1440px){
+body{
+    overflow-x: unset;
+ }
+}
